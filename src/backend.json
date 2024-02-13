@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "dBBoJ4WTErbdJBk86dUNgRVxHNX2": {
+      "type": "object",
+      "properties": {
+        "animal": {"type": "string"},
+        "height": {"type": "string"},
+        "image": {"type": "string", "format": "uri"},
+        "name": {"type": "string"},
+        "number": {"type": "string"}
+      },
+      "required": ["animal", "height", "image", "name", "number"]
+    },
+    "highScore": {"type": "integer"},
+    "iaqFOt7zRZYB6eucPirnMlTrttp2": {
+      "type": "object",
+      "properties": {
+        "animal": {"type": "string"},
+        "height": {"type": "string"},
+        "image": {"type": "string", "format": "uri"},
+        "name": {"type": "string"},
+        "number": {"type": "string"}
+      },
+      "required": ["animal", "height", "image", "name", "number"]
+    }
+  },
+  "required": ["dBBoJ4WTErbdJBk86dUNgRVxHNX2", "highScore", 
+"iaqFOt7zRZYB6eucPirnMlTrttp2"]
+}
+
